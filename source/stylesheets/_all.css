@@ -1,9 +1,14 @@
 @charset "utf-8";
-
+* {
+    box-sizing: border-box;
+}
 body {
   background: #f4f0ef;
+  color: $slate;
   text-align: center;
-  font-family: sans-serif; }
+  font-family: "Ideal Sans A", "Ideal Sans B";
+
+}
 
 h1 {
   color: rgba(0, 0, 0, .3);
