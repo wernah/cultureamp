@@ -3,10 +3,8 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~>3.3.12"
-<<<<<<< HEAD
 gem 'middleman-deploy', '~> 1.0'
-=======
->>>>>>> c37ed4984ef5668db24fd75393693f1bcfaf70ca
+
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -15,8 +13,5 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 # Windows does not come with time zone data
-<<<<<<< HEAD
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
-=======
-gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
->>>>>>> c37ed4984ef5668db24fd75393693f1bcfaf70ca
+
