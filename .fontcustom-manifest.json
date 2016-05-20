@@ -1,18 +1,30 @@
 {
   "checksum": {
-    "previous": "3e1ee02d6c95f5ca625260f4b48cc6b88917b039030e79535ac1d00bfa18557d",
-    "current": "3e1ee02d6c95f5ca625260f4b48cc6b88917b039030e79535ac1d00bfa18557d"
+    "previous": "13c6170fca0eab9dd3d7f99844d149eaa339dc4efd4c39caa8fc335c030c38eb",
+    "current": "13c6170fca0eab9dd3d7f99844d149eaa339dc4efd4c39caa8fc335c030c38eb"
   },
   "fonts": [
-    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.ttf",
-    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.svg",
-    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.woff",
-    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.eot"
+    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.ttf",
+    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.svg",
+    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.woff",
+    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.eot"
   ],
   "glyphs": {
-    "emirates": {
-      "codepoint": 61696,
-      "source": "source/icons/emirates.svg"
+    "academy": {
+      "codepoint": 61697,
+      "source": "source/icons/academy.svg"
+    },
+    "cultureamp_logo": {
+      "codepoint": 61698,
+      "source": "source/icons/cultureamp_logo.svg"
+    },
+    "support": {
+      "codepoint": 61699,
+      "source": "source/icons/support.svg"
+    },
+    "surveys": {
+      "codepoint": 61700,
+      "source": "source/icons/surveys.svg"
     }
   },
   "options": {
