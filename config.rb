@@ -81,6 +81,4 @@ activate :deploy do |deploy|
   # run `git branch -a` to see a list of possible branches
   deploy.branch = "gh-pages"
 
-  # strategy is optional (default is :force_push)
-  deploy.strategy = :submodule
 end
