@@ -1,0 +1,49 @@
+{
+  "checksum": {
+    "previous": "3e1ee02d6c95f5ca625260f4b48cc6b88917b039030e79535ac1d00bfa18557d",
+    "current": "3e1ee02d6c95f5ca625260f4b48cc6b88917b039030e79535ac1d00bfa18557d"
+  },
+  "fonts": [
+    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.ttf",
+    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.svg",
+    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.woff",
+    "source/fonts/icons_3e1ee02d6c95f5ca625260f4b48cc6b8.eot"
+  ],
+  "glyphs": {
+    "emirates": {
+      "codepoint": 61696,
+      "source": "source/icons/emirates.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "base64": "false;",
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "icons",
+    "force": false,
+    "input": {
+      "templates": "source/icons",
+      "vectors": "source/icons"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "source/stylesheets",
+      "fonts": "source/fonts",
+      "preview": "source/fonts"
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "scss"
+    ]
+  },
+  "templates": [
+    "source/stylesheets/_icons.scss"
+  ]
+}
