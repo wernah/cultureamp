@@ -4,6 +4,7 @@ $slate: #2d2d2d;
 $ink: #3d3d3d;
 $faint-border: #e4e0df;
 $platinum: linear-gradient(#ffffff 0%, #faf8f7 100%);
+$tan: #f4f0ef;
 
 body {
   font-family: "Ideal Sans A", "Ideal Sans B";
@@ -30,4 +31,11 @@ i {
     background: white;
     color: rgba($ink, .8);
   }
+}
+
+.card {
+  background: white;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.07);
+  border-radius: 3px;
+  padding: 20px;
 }
