@@ -1,22 +1,50 @@
 {
   "checksum": {
-    "previous": "13c6170fca0eab9dd3d7f99844d149eaa339dc4efd4c39caa8fc335c030c38eb",
-    "current": "13c6170fca0eab9dd3d7f99844d149eaa339dc4efd4c39caa8fc335c030c38eb"
+    "previous": "9fa974c1d3c3d15b08c7fdeef7702819c1b42ac815935b3d3ac9f8ddccd1cf29",
+    "current": "9fa974c1d3c3d15b08c7fdeef7702819c1b42ac815935b3d3ac9f8ddccd1cf29"
   },
   "fonts": [
-    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.ttf",
-    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.svg",
-    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.woff",
-    "source/fonts/icons_13c6170fca0eab9dd3d7f99844d149ea.eot"
+    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.ttf",
+    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.svg",
+    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.woff",
+    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.eot"
   ],
   "glyphs": {
     "academy": {
       "codepoint": 61697,
       "source": "source/icons/academy.svg"
     },
+    "chevron-down": {
+      "codepoint": 61702,
+      "source": "source/icons/chevron-down.svg"
+    },
     "cultureamp_logo": {
       "codepoint": 61698,
       "source": "source/icons/cultureamp_logo.svg"
+    },
+    "heatmap": {
+      "codepoint": 61703,
+      "source": "source/icons/heatmap.svg"
+    },
+    "insight": {
+      "codepoint": 61704,
+      "source": "source/icons/insight.svg"
+    },
+    "participation": {
+      "codepoint": 61705,
+      "source": "source/icons/participation.svg"
+    },
+    "plus": {
+      "codepoint": 61706,
+      "source": "source/icons/plus.svg"
+    },
+    "questions": {
+      "codepoint": 61707,
+      "source": "source/icons/questions.svg"
+    },
+    "sentiment": {
+      "codepoint": 61708,
+      "source": "source/icons/sentiment.svg"
     },
     "support": {
       "codepoint": 61699,
@@ -25,6 +53,10 @@
     "surveys": {
       "codepoint": 61700,
       "source": "source/icons/surveys.svg"
+    },
+    "wrench": {
+      "codepoint": 61701,
+      "source": "source/icons/wrench.svg"
     }
   },
   "options": {

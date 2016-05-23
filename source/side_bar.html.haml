@@ -1,3 +1,29 @@
 .side_bar
-  %h3{:title => "Engagement Survey 2016 1st Quarter"}
-    Engagement Survey 2016 1st Quarter
+  .top_section
+    %h3{:title => "Engagement Survey 2016 1st Quarter"}
+      Engagement Survey 2016 1st Quarter
+    = link_to '#', class: 'configure-survey' do
+      %i.icon-wrench
+
+  = link_to '#', class: 'reports-nav btn' do
+    Insight Dashboard
+    %i.icon-insight.left
+    %i.icon-chevron-down
+
+  .participation-widget
+    .participation-container
+      %h5
+        Participation
+      %p
+        92<span>%</span>
+    .responses-container
+      %h5
+        Responses
+      %p
+        8,723 <span>of 9,450</span>
+
+  .filters
+    = link_to '#', class: 'filters-add btn' do
+      %i.icon-plus
+      %span
+        Add Filter

@@ -4,19 +4,38 @@
   top: 0;
   bottom: 0;
   position: fixed;
-  padding: 20px;
-  border-right: 1px #e4e0df solid;
+
+  .top_section {
+    max-height: 60px;
+    border-bottom: 1px $faint-border solid;
+  }
   h3 {
     color: $ink;
     font-size: 16px;
     font-weight: 300;
     text-align: left;
+    line-height: 60px;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 45px;
   }
-
+}
+.configure-survey {
+  height: 60px;
+  width: 45px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  color: rgba($slate, .2);
+  transition: color .1s;
+  &:hover {
+    color: rgba($slate, .5);
+  }
 }
 ul.nav {
   margin: 0;
@@ -36,3 +55,97 @@ ul.nav {
   }
 }
 
+.reports-nav {
+  display: block;
+  margin: 20px;
+  line-height: 43px;
+  padding: 0;
+  text-align: left;
+  padding-left: 50px;
+  position: relative;
+  i.left {
+    position: absolute;
+    left: 0px;
+    height: 45px;
+  }
+  .icon-chevron-down {
+    position: absolute;
+    right: 0;
+    height: 45px;
+    color: rgba($ink, .2);
+  }
+}
+
+.participation-widget {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  .participation-container, .responses-container {
+    display: flex;
+    width: 100%;
+    // border: 1px red solid;
+    margin-bottom: 5px;
+  }
+  .participation-container {
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      > span { font-size: 14px } // %
+    }
+  }
+  .responses-container {
+    p span {
+      color: rgba($ink, .4);
+    }
+  }
+  h5, p {
+    // border: 1px blue solid;
+    display: inline-block;
+    flex-grow: 1;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+  h5 {
+    text-align: left;
+    font-size: 14px;
+    color: rgba($ink, .7);
+
+  }
+  p {
+    text-align: right;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: rgba($ink, .8);
+  }
+}
+
+.filters {
+  padding: 10px 20px 20px 20px;
+  .filters-add {
+    position: relative;
+    width: 100%;
+    line-height: 40px;
+    background: #e5e1e0;
+    border: none;
+    &:hover {
+      background: #dfdcda;
+    }
+
+    i {
+      display: inline-block;
+      position: absolute;
+      left: 55px;
+      top: 3px;
+      :before {
+      }
+    }
+    span {
+      padding-left: 20px;
+      display: inline-block;
+    }
+
+  }
+}
