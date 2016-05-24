@@ -1,11 +1,23 @@
 .mainwindow
   .top_section_wrapper
     .top_section
-      .btn
-        back
+      = link_to '#', class: 'back-btn' do
+        %i.icon-chevron-left
+        Back to Insight
+      = link_to '#', class: 'comparison-switcher btn' do
+        <span>Compare to</span>
+        New Tech Benchmark 2016
+        %i.icon-triangle
+
   .document
     %h1
-      Insight Report
+      Teamwork &amp; Ownership
+    .card
+    %h2
+      Questions
+    .card
+    %h2
+      Spread Chart
     .card
 
 

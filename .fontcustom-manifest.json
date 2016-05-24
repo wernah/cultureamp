@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "9fa974c1d3c3d15b08c7fdeef7702819c1b42ac815935b3d3ac9f8ddccd1cf29",
-    "current": "9fa974c1d3c3d15b08c7fdeef7702819c1b42ac815935b3d3ac9f8ddccd1cf29"
+    "previous": "2c6289131fb0f2a93e67d0846d0a611db229e7ae0174d77aeab12d09044af637",
+    "current": "2c6289131fb0f2a93e67d0846d0a611db229e7ae0174d77aeab12d09044af637"
   },
   "fonts": [
-    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.ttf",
-    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.svg",
-    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.woff",
-    "source/fonts/icons_9fa974c1d3c3d15b08c7fdeef7702819.eot"
+    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.ttf",
+    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.svg",
+    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.woff",
+    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.eot"
   ],
   "glyphs": {
     "academy": {
@@ -17,6 +17,10 @@
     "chevron-down": {
       "codepoint": 61702,
       "source": "source/icons/chevron-down.svg"
+    },
+    "chevron-left": {
+      "codepoint": 61709,
+      "source": "source/icons/chevron-left.svg"
     },
     "cultureamp_logo": {
       "codepoint": 61698,
@@ -53,6 +57,10 @@
     "surveys": {
       "codepoint": 61700,
       "source": "source/icons/surveys.svg"
+    },
+    "triangle": {
+      "codepoint": 61710,
+      "source": "source/icons/triangle.svg"
     },
     "wrench": {
       "codepoint": 61701,
