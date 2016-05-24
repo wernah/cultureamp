@@ -1,3 +1,5 @@
-$(".reports-nav").click(function(){
+$(function() {
+  $('body').click(function() {
     console.log("hello");
+  });
 });
