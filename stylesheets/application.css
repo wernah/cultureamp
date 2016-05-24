@@ -347,18 +347,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 9, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 10, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 body {
   font-family: "Ideal Sans A", "Ideal Sans B"; }
 
-/* line 13, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 14, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 i {
   display: inline-block; }
-  /* line 15, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+  /* line 16, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
   i:before {
     font-size: 50px; }
 
-/* line 20, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 21, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 .btn {
   background: linear-gradient(#ffffff 0%, #faf8f7 100%);
   border: 1px solid #cdcac9;
@@ -369,17 +369,20 @@ i {
   color: rgba(61, 61, 61, 0.5);
   text-decoration: none;
   font-size: 14px; }
-  /* line 30, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+  /* line 31, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
   .btn:hover {
     background: white;
     color: rgba(61, 61, 61, 0.8); }
 
-/* line 36, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 37, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 .card {
   background: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.07);
-  border-radius: 3px;
-  padding: 20px; }
+  border-radius: 3px; }
+
+/* line 44, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+a:link, a:visited {
+  text-decoration: none; }
 
 /* line 2, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_all.css */
 * {
@@ -393,24 +396,33 @@ body {
   font-family: "Ideal Sans A", "Ideal Sans B"; }
 
 /* line 13, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_all.css */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  text-align: left; }
+
+/* line 17, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_all.css */
 h1 {
-  font-size: 22px;
-  font-weight: 300; }
+  font-size: 22px; }
+
+/* line 20, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_all.css */
+h2 {
+  font-size: 18px;
+  color: rgba(45, 45, 45, 0.5); }
 
 @font-face {
   font-family: "icons";
-  src: url("icons_9fa974c1d3c3d15b08c7fdeef7702819.eot?") format("embedded-opentype");
+  src: url("icons_ff318c41fbdb6f9b0c0aa55744330853.eot?") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "icons";
-  src: url("data:application/x-font-woff;charset=utf-8;base64,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") format("woff"), url("icons_9fa974c1d3c3d15b08c7fdeef7702819.ttf") format("truetype"), url("icons_9fa974c1d3c3d15b08c7fdeef7702819.svg#icons") format("svg");
+  src: url("data:application/x-font-woff;charset=utf-8;base64,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") format("woff"), url("icons_ff318c41fbdb6f9b0c0aa55744330853.ttf") format("truetype"), url("icons_ff318c41fbdb6f9b0c0aa55744330853.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "icons";
-    src: url("icons_9fa974c1d3c3d15b08c7fdeef7702819.svg#icons") format("svg"); } }
+    src: url("icons_ff318c41fbdb6f9b0c0aa55744330853.svg#icons") format("svg"); } }
 /* line 28, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 [data-icon]:before {
   content: attr(data-icon); }
@@ -419,15 +431,19 @@ h1 {
 [data-icon]:before,
 .icon-academy:before,
 .icon-chevron-down:before,
+.icon-chevron-left:before,
 .icon-cultureamp_logo:before,
+.icon-export:before,
 .icon-heatmap:before,
 .icon-insight:before,
 .icon-participation:before,
 .icon-plus:before,
+.icon-questionmark:before,
 .icon-questions:before,
 .icon-sentiment:before,
 .icon-support:before,
 .icon-surveys:before,
+.icon-triangle:before,
 .icon-wrench:before {
   display: inline-block;
   font-family: "icons";
@@ -442,51 +458,67 @@ h1 {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
 
-/* line 57, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 61, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-academy:before {
   content: "\f101"; }
 
-/* line 58, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 62, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-chevron-down:before {
   content: "\f106"; }
 
-/* line 59, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 63, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+.icon-chevron-left:before {
+  content: "\f10d"; }
+
+/* line 64, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-cultureamp_logo:before {
   content: "\f102"; }
 
-/* line 60, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 65, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+.icon-export:before {
+  content: "\f10f"; }
+
+/* line 66, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-heatmap:before {
   content: "\f107"; }
 
-/* line 61, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 67, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-insight:before {
   content: "\f108"; }
 
-/* line 62, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 68, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-participation:before {
   content: "\f109"; }
 
-/* line 63, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 69, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-plus:before {
   content: "\f10a"; }
 
-/* line 64, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 70, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+.icon-questionmark:before {
+  content: "\f110"; }
+
+/* line 71, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-questions:before {
   content: "\f10b"; }
 
-/* line 65, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 72, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-sentiment:before {
   content: "\f10c"; }
 
-/* line 66, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 73, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-support:before {
   content: "\f103"; }
 
-/* line 67, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 74, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-surveys:before {
   content: "\f104"; }
 
-/* line 68, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+/* line 75, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
+.icon-triangle:before {
+  content: "\f10e"; }
+
+/* line 76, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_icons.scss */
 .icon-wrench:before {
   content: "\f105"; }
 
@@ -540,7 +572,7 @@ h1 {
   bottom: 0;
   position: fixed; }
   /* line 9, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
-  .side_bar h3 {
+  .side_bar .survey-name {
     color: #3d3d3d;
     font-size: 16px;
     font-weight: 300;
@@ -674,28 +706,107 @@ ul.nav {
 /* line 1, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
 .mainwindow {
   position: absolute;
-  height: 3000px;
   left: 345px;
   right: 0;
   top: 0;
   bottom: 0; }
-  /* line 10, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  /* line 7, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  .mainwindow .top_section_wrapper {
+    width: 100%;
+    max-width: 880px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  /* line 14, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
   .mainwindow .top_section {
+    display: flex;
     position: fixed;
+    justify-content: center;
+    padding-right: 40px;
+    z-index: 1;
     top: 0;
     right: 0;
     height: 60px;
     border-bottom: 1px #e4e0df solid;
     left: 345px;
     background: #f4f0ef; }
-    /* line 18, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+    /* line 27, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
     .mainwindow .top_section .btn {
-      float: left;
-      margin-top: 15px; }
-  /* line 23, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
-  .mainwindow .document {
-    padding: 0px 40px 0px 0px;
-    padding-top: 90px; }
-    /* line 24, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
-    .mainwindow .document h1 {
-      text-align: left; }
+      float: left; }
+  /* line 31, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  .mainwindow .back-btn {
+    font-size: 14px;
+    line-height: 60px;
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    color: rgba(61, 61, 61, 0.4);
+    transition: color .15s; }
+    /* line 39, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+    .mainwindow .back-btn:hover {
+      color: #3d3d3d; }
+    /* line 42, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+    .mainwindow .back-btn i {
+      position: absolute;
+      left: -20px;
+      top: 3px; }
+      /* line 46, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+      .mainwindow .back-btn i:before {
+        line-height: 60px; }
+  /* line 51, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  .mainwindow .comparison-switcher {
+    position: relative;
+    color: rgba(61, 61, 61, 0.8);
+    padding: 0 40px 0 15px;
+    line-height: 33px; }
+    /* line 56, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+    .mainwindow .comparison-switcher span {
+      color: rgba(61, 61, 61, 0.4); }
+    /* line 60, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+    .mainwindow .comparison-switcher i {
+      position: absolute;
+      right: -5px;
+      top: -10px;
+      color: rgba(61, 61, 61, 0.3);
+      transition: color .1s; }
+      /* line 66, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+      .mainwindow .comparison-switcher i:before {
+        line-height: 60px; }
+  /* line 71, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  .mainwindow section.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+    /* line 75, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+    .mainwindow section.heading .actions {
+      font-size: 14px; }
+      /* line 77, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+      .mainwindow section.heading .actions a {
+        color: rgba(61, 61, 61, 0.4);
+        transition: color .15s; }
+        /* line 80, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+        .mainwindow section.heading .actions a:hover {
+          color: rgba(61, 61, 61, 0.8); }
+      /* line 84, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+      .mainwindow section.heading .actions i {
+        position: relative;
+        top: 12px;
+        left: 10px; }
+
+/* line 93, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+.document {
+  display: flex;
+  justify-content: center;
+  padding: 0px 40px 0px 0px;
+  padding-top: 84px;
+  padding-bottom: 100px; }
+  /* line 99, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  .document h1 {
+    text-align: left; }
+  /* line 102, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  .document h2 {
+    margin: 2em 0 1em; }
+  /* line 105, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_mainwindow.scss */
+  .document .document_wrapper {
+    width: 100%;
+    max-width: 880px; }

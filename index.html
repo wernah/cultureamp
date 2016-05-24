@@ -8,10 +8,11 @@
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Layout Prototype</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
     <link href="stylesheets/application.css" rel="stylesheet" type="text/css" />
     <link href="https://cloud.typography.com/6384974/748948/css/fonts.css" rel="stylesheet" type="text/css" />
-    <script src="javascripts/all.js" type="text/javascript"></script>
+
+    <script src="javascripts/application.js" type="text/javascript"></script>
   </head>
 
   <body class="index">
@@ -21,15 +22,15 @@
   </a>
   <ul class='nav'>
     <li>
-      <a href="#"><i class='icon-surveys' title='Culture Amp'></i>
+      <a href="#"><i class='icon-surveys' title='Surveys'></i>
       </a>
     </li>
     <li>
-      <a href="#"><i class='icon-academy' title='Culture Amp'></i>
+      <a href="#"><i class='icon-academy' title='Academy'></i>
       </a>
     </li>
     <li>
-      <a href="#"><i class='icon-support' title='Culture Amp'></i>
+      <a href="#"><i class='icon-support' title='Support Centre'></i>
       </a>
     </li>
   </ul>
@@ -37,9 +38,9 @@
 </div>
 <div class='side_bar'>
   <div class='top_section'>
-    <h3 title='Engagement Survey 2016 1st Quarter'>
+    <p class='survey-name' title='Engagement Survey 2016 1st Quarter'>
       Engagement Survey 2016 1st Quarter
-    </h3>
+    </p>
     <a class="configure-survey" href="#"><i class='icon-wrench'></i>
     </a>
   </div>
@@ -74,18 +75,48 @@
   </div>
 </div>
 <div class='mainwindow'>
-  <div class='top_section_wrapper'>
-    <div class='top_section'>
-      <div class='btn'>
-        back
-      </div>
+  <div class='top_section'>
+    <div class='top_section_wrapper'>
+      <a class="back-btn" href="#"><i class='icon-chevron-left'></i>
+      Back to Insight
+      </a>
+      <a class="comparison-switcher btn" href="#"><span>Compare to</span>
+      New Tech Benchmark 2016
+      <i class='icon-triangle'></i>
+      </a>
     </div>
   </div>
   <div class='document'>
-    <h1>
-      Insight Report
-    </h1>
-    <div class='card'></div>
+    <div class='document_wrapper'>
+      <section class='heading'>
+        <h1>
+          Teamwork &amp; Ownership
+        </h1>
+        <div class='actions'>
+          <a class="help" href="#"><i class='icon-questionmark'></i>
+          Help
+          </a>
+          <a class="export" href="#"><i class='icon-export'></i>
+          Export
+          </a>
+        </div>
+      </section>
+      <div class='card'>
+        <img class='company' src='images/main-hero.jpg'>
+      </div>
+      <h2>
+        Questions
+      </h2>
+      <div class='card'>
+        <img class='company' src='images/main-questions.jpg'>
+      </div>
+      <h2>
+        Spread Chart
+      </h2>
+      <div class='card'>
+        <img class='company' src='images/main-spread.jpg'>
+      </div>
+    </div>
   </div>
 </div>
 
