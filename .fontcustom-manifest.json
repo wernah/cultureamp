@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "2c6289131fb0f2a93e67d0846d0a611db229e7ae0174d77aeab12d09044af637",
-    "current": "2c6289131fb0f2a93e67d0846d0a611db229e7ae0174d77aeab12d09044af637"
+    "previous": "ff318c41fbdb6f9b0c0aa55744330853f8e698a603d1681c9d9be86737d43089",
+    "current": "ff318c41fbdb6f9b0c0aa55744330853f8e698a603d1681c9d9be86737d43089"
   },
   "fonts": [
-    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.ttf",
-    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.svg",
-    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.woff",
-    "source/fonts/icons_2c6289131fb0f2a93e67d0846d0a611d.eot"
+    "source/fonts/icons_ff318c41fbdb6f9b0c0aa55744330853.ttf",
+    "source/fonts/icons_ff318c41fbdb6f9b0c0aa55744330853.svg",
+    "source/fonts/icons_ff318c41fbdb6f9b0c0aa55744330853.woff",
+    "source/fonts/icons_ff318c41fbdb6f9b0c0aa55744330853.eot"
   ],
   "glyphs": {
     "academy": {
@@ -26,6 +26,10 @@
       "codepoint": 61698,
       "source": "source/icons/cultureamp_logo.svg"
     },
+    "export": {
+      "codepoint": 61711,
+      "source": "source/icons/export.svg"
+    },
     "heatmap": {
       "codepoint": 61703,
       "source": "source/icons/heatmap.svg"
@@ -41,6 +45,10 @@
     "plus": {
       "codepoint": 61706,
       "source": "source/icons/plus.svg"
+    },
+    "questionmark": {
+      "codepoint": 61712,
+      "source": "source/icons/questionmark.svg"
     },
     "questions": {
       "codepoint": 61707,

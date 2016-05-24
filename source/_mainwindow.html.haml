@@ -1,6 +1,6 @@
 .mainwindow
-  .top_section_wrapper
-    .top_section
+  .top_section
+    .top_section_wrapper
       = link_to '#', class: 'back-btn' do
         %i.icon-chevron-left
         Back to Insight
@@ -9,15 +9,29 @@
         New Tech Benchmark 2016
         %i.icon-triangle
 
+
+
   .document
-    %h1
-      Teamwork &amp; Ownership
-    .card
-    %h2
-      Questions
-    .card
-    %h2
-      Spread Chart
-    .card
+    .document_wrapper
+      %section.heading
+        %h1
+          Teamwork &amp; Ownership
+        .actions
+          = link_to '#', class: 'help' do
+            %i.icon-questionmark
+            Help
+          = link_to '#', class: 'export' do
+            %i.icon-export
+            Export
+      .card
+        %img.company{:src => "images/main-hero.jpg"}
+      %h2
+        Questions
+      .card
+        %img.company{:src => "images/main-questions.jpg"}
+      %h2
+        Spread Chart
+      .card
+        %img.company{:src => "images/main-spread.jpg"}
 
 

@@ -1,18 +1,22 @@
 .mainwindow {
   position: absolute;
-
-  height: 3000px;
   left: 285px + 60px; // sidebar + toplevel;
   right: 0;
   top: 0;
   bottom: 0;
-
+  .top_section_wrapper {
+    width: 100%;
+    max-width: $main-maxwidth;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .top_section {
     display: flex;
     position: fixed;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     padding-right: 40px;
+    z-index: 1;
     top: 0;
     right: 0;
     height: $toplevel_width;
@@ -23,13 +27,6 @@
     .btn {
       float: left;
     }
-  }
-  .document {
-    h1 {
-      text-align: left;
-    }
-    padding: 0px 40px 0px 0px;
-    padding-top: $toplevel_width * 1.5;
   }
   .back-btn {
     font-size: 14px;
@@ -56,11 +53,6 @@
     color: rgba($ink, .8);
     padding: 0 40px 0 15px;
     line-height: 33px;
-    &:hover {
-      i {
-        color: rgba($ink, .8);
-      }
-    }
     span {
       color: rgba($ink, .4);
     }
@@ -75,5 +67,43 @@
         line-height: 60px;
       }
     }
+  }
+  section.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .actions {
+      font-size: 14px;
+      a {
+        color: rgba($ink, .4);
+        transition: color .15s;
+        &:hover {
+          color: rgba($ink, .8);
+        }
+      }
+      i {
+        position: relative;
+        top: 12px;
+        left: 10px;
+      }
+    }
+  }
+}
+
+.document {
+  display: flex;
+  justify-content: center;
+  padding: 0px 40px 0px 0px;
+  padding-top: $toplevel_width * 1.4;
+  padding-bottom: 100px;
+  h1 {
+    text-align: left;
+  }
+  h2 {
+    margin: 2em 0 1em;
+  }
+  .document_wrapper {
+    width: 100%;
+    max-width: $main-maxwidth;
   }
 }
