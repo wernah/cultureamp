@@ -347,18 +347,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 10, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 11, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 body {
   font-family: "Ideal Sans A", "Ideal Sans B"; }
 
-/* line 14, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 15, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 i {
   display: inline-block; }
-  /* line 16, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+  /* line 17, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
   i:before {
     font-size: 50px; }
 
-/* line 21, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 22, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 .btn {
   background: linear-gradient(#ffffff 0%, #faf8f7 100%);
   border: 1px solid #cdcac9;
@@ -369,18 +369,18 @@ i {
   color: rgba(61, 61, 61, 0.5);
   text-decoration: none;
   font-size: 14px; }
-  /* line 31, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+  /* line 32, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
   .btn:hover {
     background: white;
     color: rgba(61, 61, 61, 0.8); }
 
-/* line 37, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 38, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 .card {
   background: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.07);
   border-radius: 3px; }
 
-/* line 44, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
+/* line 45, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_common.scss */
 a:link, a:visited {
   text-decoration: none; }
 
@@ -617,48 +617,112 @@ ul.nav {
     height: 60px;
     color: white; }
 
-/* line 55, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+/* line 54, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+.reports-nav-wrapper {
+  position: relative;
+  padding: 20px 30px 20px 20px; }
+  /* line 58, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  .reports-nav-wrapper.open ul.options {
+    transition: all 200ms cubic-bezier(0.34, 1.61, 0.7, 1);
+    transform: scale(1);
+    opacity: 1; }
+  /* line 64, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  .reports-nav-wrapper ul.options {
+    transition: all 100ms ease-out;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: 50% 30%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    width: 235px;
+    top: -30px;
+    position: absolute;
+    background: #fcfaf9;
+    border-radius: 3px;
+    list-style: none;
+    text-align: left;
+    z-index: 2;
+    padding: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15); }
+    /* line 81, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+    .reports-nav-wrapper ul.options li {
+      position: relative;
+      display: block;
+      line-height: 38px;
+      border-bottom: 1px solid rgba(61, 61, 61, 0.1);
+      padding: 0px 10px;
+      padding-left: 50px;
+      display: block;
+      color: rgba(61, 61, 61, 0.5);
+      text-decoration: none;
+      font-size: 14px;
+      cursor: pointer;
+      font-weight: 300; }
+      /* line 94, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+      .reports-nav-wrapper ul.options li.selected {
+        color: #f04c5d !important; }
+      /* line 97, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+      .reports-nav-wrapper ul.options li:hover {
+        background: white;
+        color: rgba(61, 61, 61, 0.75); }
+      /* line 101, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+      .reports-nav-wrapper ul.options li:last-child {
+        border: none; }
+      /* line 104, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+      .reports-nav-wrapper ul.options li i {
+        position: absolute;
+        left: 0px;
+        top: -3px; }
+      /* line 109, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+      .reports-nav-wrapper ul.options li img {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        left: 15px;
+        top: 11px; }
+
+/* line 123, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
 .reports-nav {
   display: block;
-  margin: 20px 30px 20px 20px;
   line-height: 43px;
   padding: 0;
   text-align: left;
   padding-left: 50px;
-  position: relative; }
-  /* line 63, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  position: relative;
+  font-weight: 300;
+  outline: none; }
+  /* line 132, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .reports-nav i.left {
     position: absolute;
     left: 0px;
     height: 45px; }
-  /* line 68, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 137, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .reports-nav .icon-chevron-down {
     position: absolute;
     right: 0;
     height: 45px;
     color: rgba(61, 61, 61, 0.2); }
 
-/* line 76, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+/* line 145, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
 .participation-widget {
   padding: 0 30px 0 20px;
   display: flex;
   flex-direction: column; }
-  /* line 80, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 149, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .participation-widget .participation-container, .participation-widget .responses-container {
     display: flex;
     width: 100%;
     margin-bottom: 5px; }
-  /* line 87, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 156, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .participation-widget .participation-container p {
     font-size: 18px;
     font-weight: 300; }
-    /* line 90, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+    /* line 159, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
     .participation-widget .participation-container p > span {
       font-size: 14px; }
-  /* line 94, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 163, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .participation-widget .responses-container p span {
     color: rgba(61, 61, 61, 0.4); }
-  /* line 98, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 167, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .participation-widget h5, .participation-widget p {
     display: inline-block;
     flex-grow: 1;
@@ -667,38 +731,38 @@ ul.nav {
     margin: 0;
     padding: 0;
     font-weight: 400; }
-  /* line 108, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 177, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .participation-widget h5 {
     text-align: left;
     font-size: 14px;
     color: rgba(61, 61, 61, 0.7); }
-  /* line 114, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 183, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .participation-widget p {
     text-align: right;
     justify-content: flex-end;
     font-size: 15px;
     color: rgba(61, 61, 61, 0.8); }
 
-/* line 122, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+/* line 191, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
 .filters {
   padding: 10px 30px 20px 20px; }
-  /* line 124, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+  /* line 193, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
   .filters .filters-add {
     position: relative;
     width: 100%;
     line-height: 40px;
     background: #e5e1e0;
     border: none; }
-    /* line 130, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+    /* line 199, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
     .filters .filters-add:hover {
       background: #dfdcda; }
-    /* line 134, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+    /* line 203, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
     .filters .filters-add i {
       display: inline-block;
       position: absolute;
       left: 55px;
       top: 3px; }
-    /* line 142, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
+    /* line 211, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_side_bar.scss */
     .filters .filters-add span {
       padding-left: 20px;
       display: inline-block; }
@@ -810,3 +874,144 @@ ul.nav {
   .document .document_wrapper {
     width: 100%;
     max-width: 880px; }
+
+/* line 3, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer; }
+
+/* Base styles for the entire tooltip */
+/* line 10, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .1s; }
+
+/* Show the entire tooltip on hover and focus */
+/* line 22, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }
+
+/* Base styles for the tooltip's directional arrow */
+/* line 37, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: ""; }
+
+/* Base styles for the tooltip's content area */
+/* line 46, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 6px 20px 7px;
+  background-color: #333333;
+  border-radius: 3px;
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  font-weight: 200;
+  white-space: nowrap;
+  /* this does the trick */ }
+
+/* Directions */
+/* Top (default) */
+/* line 64, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 100%;
+  left: 70px; }
+
+/* line 74, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: 20pxpx;
+  margin-bottom: -12px;
+  border-top-color: #333333; }
+
+/* Horizontally align top/bottom tooltips */
+/* line 83, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px; }
+
+/* Left */
+/* line 91, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-left:before,
+.tooltip-left:after {
+  bottom: 50%;
+  left: 70px; }
+
+/* line 97, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-left:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #333333; }
+
+/* Bottom */
+/* line 108, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-bottom:before,
+.tooltip-bottom:after {
+  top: 100%;
+  bottom: auto;
+  left: 50%; }
+
+/* line 114, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-bottom:before {
+  margin-top: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #333333; }
+
+/* Right */
+/* line 123, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: 60%;
+  left: 70px; }
+
+/* line 128, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-right:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #333333; }
+
+/* Move directional arrows down a bit for left/right tooltips */
+/* line 137, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-left:before,
+.tooltip-right:before {
+  top: 21px; }
+
+/* Vertically center tooltip content for left/right tooltips */
+/* line 143, /Users/wernah/Sites/cultureamp_layout/source/stylesheets/_tooltip.scss.css */
+.tooltip-left:after,
+.tooltip-right:after {
+  margin-left: 0;
+  margin-bottom: -16px; }
