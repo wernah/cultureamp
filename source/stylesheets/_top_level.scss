@@ -5,20 +5,47 @@
   top: 0;
   bottom: 0;
   position: fixed;
+  z-index: 10;
   .cultureamplogo {
     position: fixed;
     top: 0;
     left: 0;
     width: $toplevel_width;
+    color: rgba(255,255,255,.3);
     height: 60px;
+    transition: color .1s;
+    &:hover {
+      color: rgba(255,255,255,1);
+    }
   }
+
+  ul.nav {
+    a:link, a:visited {
+      display: block;
+      color: rgba(255,255,255,.3);
+      height: 60px;
+      transition: color .1s;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        color: rgba(255,255,255,1);
+      }
+    }
+  }
+
+}
+
+.account {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
   .company {
     height: 40px;
     width: 40px;
     border-radius: 3px;
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
     opacity: .5;
     transition: opacity .1s;
     &:hover {
@@ -26,18 +53,62 @@
       opacity: 1;
     }
   }
-
-  a:link, a:visited {
-    display: block;
-    color: rgba(255,255,255,.3);
-    height: 60px;
-    transition: color .1s;
-
+  &:hover {
+    .popup {
+      display: block;
+    }
+  }
+  .popup {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    &:hover {
-      color: rgba(255,255,255,1);
+    flex-direction: column;
+    position: fixed;
+    display: none;
+    width: 250px;
+    background: #5a5858;
+    left: 80px;
+    bottom: 10px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,.15);
+    border-radius: 3px;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
+    .top {
+      padding-left: 50px;
+      border-bottom: 1px rgba(255,255,255,.05) solid;
+
+    }
+    &:before {    // ARROW
+        border: 10px solid transparent;
+        background: transparent;
+        content: "";
+        border-right-color: #5a5858;
+        width: 0px;
+
+        position: absolute;
+        left: -20px;
+        bottom: 10px;
+    }
+    .sign-out {
+      color: rgba(255,255,255,.5);
+      padding-bottom: 20px;
+      display: block;
+      transition: color .15s;
+      &:hover {
+        color: white;
+      }
+
+    }
+    .username {
+      font-size: 18px;
+    }
+    ul {
+      padding-left: 50px;
+      list-style: none;
+      li {
+        line-height: 25px;
+      }
     }
   }
 }
