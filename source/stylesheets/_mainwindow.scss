@@ -1,28 +1,28 @@
 .mainwindow {
   position: absolute;
-  left: 285px + 60px; // sidebar + toplevel;
   right: 0;
   top: 0;
   bottom: 0;
-  .top_section_wrapper {
-    width: 100%;
-    max-width: $main-maxwidth;
+  width: 70%;
+  .top_section_inner {
+
+    width: 880px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   .top_section {
+    width: 70%;
     display: flex;
     position: fixed;
     justify-content: center;
-    padding-right: 40px;
     z-index: 1;
     top: 0;
     right: 0;
     height: $toplevel_width;
     border-bottom: 1px $faint-border solid;
-    left: 285px + 60px; // sidebar + toplevel;
     background: $tan;
+
 
     .btn {
       float: left;
@@ -93,7 +93,7 @@
 .document {
   display: flex;
   justify-content: center;
-  padding: 0px 40px 0px 0px;
+  padding: 0px 0px 0px 0px;
   padding-top: $toplevel_width * 1.4;
   padding-bottom: 100px;
   h1 {

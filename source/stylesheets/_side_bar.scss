@@ -1,10 +1,16 @@
 .side_bar {
-  max-width: 285px;
+
   left: $toplevel_width;
   top: 0;
   bottom: 0;
   position: fixed;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
   .top_section {
+  }
+  .side_bar_inner {
+    width: 285px;
   }
   .survey-name {
     color: $ink;

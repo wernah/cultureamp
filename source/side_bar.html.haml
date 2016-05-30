@@ -1,46 +1,47 @@
 .side_bar
-  .top_section
-    %p.survey-name{:title => "Engagement Survey 2016 1st Quarter"}
-      Engagement Survey 2016 1st Quarter
-    = link_to '#', class: 'configure-survey' do
-      %i.icon-wrench
+  .side_bar_inner
+    .top_section
+      %p.survey-name{:title => "Engagement Survey 2016 1st Quarter"}
+        Engagement Survey 2016 1st Quarter
+      = link_to '#', class: 'configure-survey' do
+        %i.icon-wrench
 
-  .reports-nav-wrapper
-    = link_to '#', class: 'reports-nav btn' do
-      Insight Dashboard
-      %i.icon-insight.left
-      %i.icon-chevron-down
-    %ul.options
-      %li.selected
-        %i.icon-insight
+    .reports-nav-wrapper
+      = link_to '#', class: 'reports-nav btn' do
         Insight Dashboard
-      %li
-        %i.icon-participation
-        Participation
-      %li
-        %i.icon-questions
-        Questions
-      %li
-        %img.company{:src => "images/heatmap.png"}
-        Heatmaps
-      %li
-        %i.icon-sentiment
-        Sentiment Analysis
+        %i.icon-insight.left
+        %i.icon-chevron-down
+      %ul.options
+        %li.selected
+          %i.icon-insight
+          Insight Dashboard
+        %li
+          %i.icon-participation
+          Participation
+        %li
+          %i.icon-questions
+          Questions
+        %li
+          %img.company{:src => "images/heatmap.png"}
+          Heatmaps
+        %li
+          %i.icon-sentiment
+          Sentiment Analysis
 
-  .participation-widget
-    .participation-container
-      %h5
-        Participation
-      %p
-        92<span>%</span>
-    .responses-container
-      %h5
-        Responses
-      %p
-        8,723 <span>of 9,450</span>
+    .participation-widget
+      .participation-container
+        %h5
+          Participation
+        %p
+          92<span>%</span>
+      .responses-container
+        %h5
+          Responses
+        %p
+          8,723 <span>of 9,450</span>
 
-  .filters
-    = link_to '#', class: 'filters-add btn' do
-      %i.icon-plus
-      %span
-        Add Filter
+    .filters
+      = link_to '#', class: 'filters-add btn' do
+        %i.icon-plus
+        %span
+          Add Filter
