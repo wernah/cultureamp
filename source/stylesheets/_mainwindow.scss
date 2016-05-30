@@ -8,8 +8,9 @@
 
     width: 880px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px $faint-border solid;
   }
   .top_section {
     width: 70%;
@@ -20,8 +21,8 @@
     top: 0;
     right: 0;
     height: $toplevel_width;
-    border-bottom: 1px $faint-border solid;
     background: $tan;
+    justify-content: flex-start;
 
 
     .btn {
@@ -96,6 +97,7 @@
   padding: 0px 0px 0px 0px;
   padding-top: $toplevel_width * 1.4;
   padding-bottom: 100px;
+  justify-content: flex-start;
   h1 {
     text-align: left;
   }

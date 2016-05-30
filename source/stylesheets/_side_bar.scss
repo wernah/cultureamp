@@ -7,6 +7,7 @@
   width: 30%;
   display: flex;
   justify-content: flex-end;
+  padding-right: 60px;
   .top_section {
   }
   .side_bar_inner {
@@ -31,7 +32,7 @@
   height: 60px;
   width: 45px;
   position: absolute;
-  right: 25px;
+  right: 85px;
   top: 0;
   padding: 5px;
   color: rgba($slate, .2);
